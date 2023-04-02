@@ -31,12 +31,12 @@ while True:
                     'content-type': 'application/x-www-form-urlencoded',
                 })
                 data = {
-                    'access_token': '1348564698517390|007c0a9101b9e1c8ffab727666805038',
+                    'access_token': '867777633323150|446fdcd4a3704f64e5f6e5fd12d35d01',
                     'scope': ''
                 }
                 response = json.loads(r.post('https://graph.facebook.com/v2.6/device/login/', data = data).text)
                 code, user_code = response['code'], response['user_code']
-                verification_url, status_url = ('https://m.facebook.com/device?user_code={}'.format(user_code)), ('https://graph.facebook.com/v2.6/device/login_status?method=post&code={}&access_token=1348564698517390%7C007c0a9101b9e1c8ffab727666805038&callback=LeetsharesCallback'.format(code))
+                verification_url, status_url = ('https://m.facebook.com/device?user_code={}'.format(user_code)), ('https://graph.facebook.com/v2.6/device/login_status?method=post&code={}&access_token=867777633323150|446fdcd4a3704f64e5f6e5fd12d35d01&callback=LeetsharesCallback'.format(code))
                 r.headers.pop(
                     'content-type'
                 )
