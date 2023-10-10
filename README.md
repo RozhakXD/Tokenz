@@ -20,7 +20,7 @@
 [**Tokenz**](https://github.com/RozhakXD/Tokenz) is a program to get token access from Instagram which has quite complete features.
 
 ### Termux command?
-First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) application to run this script and for how to use it can be seen on [**Youtube**](https://www.youtube.com/rozhakid). Then you enter some basic commands below!
+First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) application to run this script and for how to use it can be seen on [**Youtube**](https://youtu.be/iCirhlST6_g). Then you enter some basic commands below!
 ```
 $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
