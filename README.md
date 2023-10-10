@@ -17,9 +17,7 @@
 ##
 
 ### What is Tokenz?
-[**Tokenz**](https://github.com/RozhakXD/Tokenz) is a program to get Facebook tokens which was created using the Python programming language.
-
-The token you get is an eaab token which has fairly complete permissions.
+[**Tokenz**](https://github.com/RozhakXD/Tokenz) is a program to get token access from Instagram which has quite complete features.
 
 ### Termux command?
 First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) application to run this script and for how to use it can be seen on [**Youtube**](https://www.youtube.com/rozhakid). Then you enter some basic commands below!
