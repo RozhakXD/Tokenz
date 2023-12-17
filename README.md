@@ -37,6 +37,7 @@ $ python Run.py
 
 ### No tokens appearing?
 
+- Doesn't work for cookies or new accounts!
 - Maybe your Facebook account is checkpointed or locked.
 - The Facebook system has been repaired causing failure to get tokens.
 - This program has been suspected by Facebook.
